@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href = "TestStyle.css">
+
+            
+            <div id="results" class="results"></div>
+            
+    </head>
+    <body>
+
+        <div class="row">
+
+            <div id="team1Score" class="column"></div>
+
+            <div id="team2Score" class="column"></div>
+
+        </div>
+
+        <div id="rules"></div>
+
+        <div id="activePlayer"></div>
+
+        <h1 id = "gameStart"><b>Please Enter Player Name and Three Prompts</b></h1>
+        <form id="promptForm">
+            <label for="playerName">Player Name:</label><br>
+            <input type="text" id=playerName name="playerName"><br>
+            <label for="prompt1">Prompt 1:</label><br>
+            <input type="text" id="prompt1" name="prompt1"><br>
+            <label for="prompt2">Prompt 2:</label><br>
+            <input type="text" id="prompt2" name="prompt2"><br>
+            <label for="prompt3">Prompt 3:</label><br>
+            <input type="text" id="prompt3" name="prompt3"><br>
+            <br>
+            <input type="button" value="Join Team 1" onclick="joinTeam1()">
+            <input type="button" value="Join Team 2" onclick="joinTeam2()"><br>
+            <br>
+
+            <input type="button" value="Start Game!" onclick="ready()">
+        </form>
+
+        <div id="ready"></div>
+
+        <div id="submitted!"></div>
+
+        <div id="display"></div>
+      
+        <form id="gamePlay"></form>
+
+        <div id="yourRand" class="clue"></div>
+
+        <div id="ready"></div>
+
+        <div class="row">
+
+            <div id="team1" class="column"></div>
+
+            <div id="team2" class="column"></div>
+
+        </div>
+
+        <br><br>
+
+        <script src = "FishBowlGame.js"></script>
+    </body>
+</html> 

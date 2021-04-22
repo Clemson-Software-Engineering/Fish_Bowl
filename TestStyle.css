@@ -1,0 +1,32 @@
+* {
+    color: gray;
+    text-align: center;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .game {
+      height: 100px;
+      width: 200px;
+      font-size: 25px;
+      padding: 10px;
+  }
+
+  .clue{
+      font-size: 55px;
+  }
+
+  .results{
+      font-size: 55px;
+  }
